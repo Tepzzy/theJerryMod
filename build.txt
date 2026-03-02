@@ -1,0 +1,3 @@
+displayName = The Jerry Mod
+author = Tepzzy
+version = 0.1
