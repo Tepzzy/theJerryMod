@@ -3,9 +3,11 @@
 Items: {
 	jerryNPC: {
 		DisplayName: The Jerry?
-		Tooltip:
-			'''
-			What will jerry say now?
-			'''
+		Tooltip: What will jerry say now?
+	}
+
+	nergaBow: {
+		DisplayName: Goat's Bow
+		Tooltip: Only a goat knows how to weild this weapon
 	}
 }
