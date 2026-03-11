@@ -1,7 +1,9 @@
+
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
+using theJerryMod.Projectiles;
 
 namespace theJerryMod.Content.Items.Jerry
 {
@@ -49,7 +51,7 @@ namespace theJerryMod.Content.Items.Jerry
         {
             if (player.altFunctionUse == 2)
             {
-                int dragon = Projectile.NewProjectile(source, position, velocity, ProjectileID.FireArrow, damage, knockback, player.whoAmI);
+                int dragon = Projectile.NewProjectile(source, position, velocity, ModContent.ProjectileType<dragonPiecer>(), damage, knockback, player.whoAmI);
                 Main.projectile[dragon].friendly = true; // Make the projectile friendly (won't hurt the player).
                 return false; // Return false to prevent the default shooting behavior from occurring.
             }

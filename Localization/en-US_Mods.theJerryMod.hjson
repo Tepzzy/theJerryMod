@@ -11,3 +11,5 @@ Items: {
 		Tooltip: Only a goat knows how to weild this weapon
 	}
 }
+
+Projectiles.dragonPiecer.DisplayName: dragon Piecer
